@@ -74,7 +74,8 @@ else if (number >= 100 && number <=999 ) {
 console.log(` ${number1} число`);
 }
 */
-/*for (var i =0; i<10; i++){
+/*
+for (var i =0; i<10; i++){
 	console.log(i);
 		if (i==4){
 	console.log("дошли до 5 - значит прирываем цыкл");
@@ -86,13 +87,24 @@ console.log(` ${number1} число`);
 while (i<=10){
 	console.log(i);
 	i++
-}*/
-
+}
+*/
+/*
 var A=200/1000;
-/*for(var i = A; i<=B;i++){
+for(var i = A; i<=B;i++){
 	console.log(i);
 	C++;
-}*/
+}
 for(var i = 100; i <= 2000; i++)
 	console.log(i*A);
-	
+*/
+var cats = ["dasha", "asha", "sha", "ha", "a"];
+var dogs = ["fgff",birts,"ht67t","utuyuyre5","8iyu8","ji","o9iu","o","t7u"];
+var birts = ["yut6r6"];
+cats.pop();
+console.log(cats);
+cats.push("aa", dogs);
+console.log(cats[2][3]);
+cats.shift();
+console.log(cats);
+cats.unshift(birts,"bel")
